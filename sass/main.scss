@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+$alata : 'Alata', sans-serif;
+$josefin : 'Josefin Sans', sans-serif;
+
+body {
+  min-width: 447px;
+  font-family: $josefin;
+}
+
+.jumbotron {
+  background-image: url("/images/mobile/image-hero.jpg");
+  padding-bottom: 288px;
+  margin-bottom: 160px;
+
+  nav {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+
+    .nav-links {
+      font-family: $josefin;
+      font-weight: bold;
+    }
+  }
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 75px;
+  background-color: black;
+
+  #footer-logo {
+    margin-bottom: 33px;
+  }
+
+  #footer-links {
+    list-style-type: none;
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #footer-text {
+    color: #7a7a7a;
+    a {
+      color: aqua;
+    }
+  }
+}
+
+.title-desc {
+  width: 300px;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px 20px 0px 20px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.desc {
+  text-align:start;
+  line-height: 1.5;
+  width: 500px;
+  font-weight: bold;
+  color: hsl(0, 0%, 55%);
+  padding: 20px 20px;
+}
+
+.title-creations {
+  position: relative;
+  top: -90px;
+  left: 50px;
+  color: white;
+  width: 140px;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 478px) {
+  body {
+    text-align: center;
+  }
+
+  #footer-links {
+    text-align: center;
+    li {
+      padding-top: 27px;
+      padding-bottom: 27px;
+    }
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 45px auto 27px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .jumbotron {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 145px;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      #logo {
+        flex-basis: 50%;
+        text-align: left;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .motto {
+      width: 652px;
+      text-align: left;
+      border-color: white;
+      border-style: solid;
+      padding: 20px 20px;
+      h1 {
+        font-size: 4.5rem;
+        font-family: $josefin;
+        color: white;
+      }
+    }
+  }
+
+  .container {
+    width: 1115px;
+    margin: 0 auto;
+  }
+
+  .col {
+    width: 49%;
+    display: inline-block;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  footer {
+    #social-media {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 30px;
+      li {
+        margin-left: 20px;
+      }
+    }
+
+    #footer-links {
+      display: flex;
+      li {
+        margin-right: 20px;
+      }
+    }
+
+    #footer-text {
+      text-align: right;
+    }
+  }
+
+  .img-interactive {
+    width: 550px;
+  }
+
+  .content1 {
+    text-align: center;
+  }
+
+  .image-vr {
+    position: relative;
+    left: -250px;
+  }
+
+  .desc-vr {
+    margin-left: 300px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    bottom: 120px;
+    left: 380px;
+  }
+
+  .content2 {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    padding-bottom: 100px;
+  }
+
+  .creations {
+    padding: 0px 10px;
+    height: 470px;
+  }
+
+  .head-creations {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 220px;
+  }
+
+  .btn-creations {
+    background-color: white;
+    border-radius: 0px;
+    font-family: $josefin;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 100px;
+    padding: 10px;
+  }
+
+}
