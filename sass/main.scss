@@ -113,6 +113,55 @@ footer {
     width: 40%;
     margin: 45px auto 27px auto;
   }
+
+  @mixin img-creations ($path-img) {
+    background-image: url($path-img);
+    background-repeat: no-repeat;
+    width: 654px;
+    height: 240px;
+  }
+
+  $list_path_img : (
+    "deep-earth" : "/images/mobile/image-deep-earth.jpg",
+    "night-arcade" : "/images/mobile/image-night-arcade.jpg",
+    "soccer" : "/images/mobile/image-soccer-team.jpg",
+    "grid" : "/images/mobile/image-grid.jpg",
+    "above-vr" : "/images/mobile/image-from-above.jpg",
+    "borealis" : "/images/mobile/image-pocket-borealis.jpg",
+    "curiosity" : "/images/mobile/image-curiosity.jpg",
+    "fisheye" : "/images/mobile/image-fisheye.jpg"
+  ); 
+
+  @each $key, $val in $list_path_img {
+    .img-creations-#{$key} {
+      @include img-creations($val);
+    }
+  }
+
+  .btn-creations {
+    background-color: white;
+    border-radius: 0px;
+    font-family: $josefin;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    top: 2300px;
+  }
+
+  .motto {
+    width: 652px;
+    text-align: left;
+    border-color: white;
+    border-style: solid;
+    padding: 20px 20px;
+    h1 {
+      font-size: 4.5rem;
+      font-family: $josefin;
+      color: white;
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -247,4 +296,27 @@ footer {
     padding: 10px;
   }
 
+  @mixin img-creations ($path-img) {
+    background-image: url($path-img);
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 450px;
+  }
+
+  $list_path_img : (
+    "deep-earth" : "/images/desktop/image-deep-earth.jpg",
+    "night-arcade" : "/images/desktop/image-night-arcade.jpg",
+    "soccer" : "/images/desktop/image-soccer-team.jpg",
+    "grid" : "/images/desktop/image-grid.jpg",
+    "above-vr" : "/images/desktop/image-from-above.jpg",
+    "borealis" : "/images/desktop/image-pocket-borealis.jpg",
+    "curiosity" : "/images/desktop/image-curiosity.jpg",
+    "fisheye" : "/images/desktop/image-fisheye.jpg"
+  ); 
+
+  @each $key, $val in $list_path_img {
+    .img-creations-#{$key} {
+      @include img-creations($val);
+    }
+  }
 }
