@@ -6,7 +6,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("/images/mobile/image-hero.jpg");
+  background-image: url("../images/mobile/image-hero.jpg");
   padding-bottom: 288px;
   margin-bottom: 160px;
 }
@@ -114,49 +114,49 @@ footer #footer-text a {
     margin: 45px auto 27px auto;
   }
   .img-creations-deep-earth {
-    background-image: url("/images/mobile/image-deep-earth.jpg");
+    background-image: url("../images/mobile/image-deep-earth.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-night-arcade {
-    background-image: url("/images/mobile/image-night-arcade.jpg");
+    background-image: url("../images/mobile/image-night-arcade.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-soccer {
-    background-image: url("/images/mobile/image-soccer-team.jpg");
+    background-image: url("../images/mobile/image-soccer-team.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-grid {
-    background-image: url("/images/mobile/image-grid.jpg");
+    background-image: url("../images/mobile/image-grid.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-above-vr {
-    background-image: url("/images/mobile/image-from-above.jpg");
+    background-image: url("../images/mobile/image-from-above.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-borealis {
-    background-image: url("/images/mobile/image-pocket-borealis.jpg");
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-curiosity {
-    background-image: url("/images/mobile/image-curiosity.jpg");
+    background-image: url("../images/mobile/image-curiosity.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
   }
   .img-creations-fisheye {
-    background-image: url("/images/mobile/image-fisheye.jpg");
+    background-image: url("../images/mobile/image-fisheye.jpg");
     background-repeat: no-repeat;
     width: 654px;
     height: 240px;
@@ -191,7 +191,7 @@ footer #footer-text a {
     display: none;
   }
   .jumbotron {
-    background-image: url("/images/desktop/image-hero.jpg");
+    background-image: url("../images/desktop/image-hero.jpg");
     background-repeat: none;
     background-position: center;
     background-size: cover;
@@ -317,49 +317,49 @@ footer #footer-text a {
     padding: 10px;
   }
   .img-creations-deep-earth {
-    background-image: url("/images/desktop/image-deep-earth.jpg");
+    background-image: url("../images/desktop/image-deep-earth.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-night-arcade {
-    background-image: url("/images/desktop/image-night-arcade.jpg");
+    background-image: url("../images/desktop/image-night-arcade.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-soccer {
-    background-image: url("/images/desktop/image-soccer-team.jpg");
+    background-image: url("../images/desktop/image-soccer-team.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-grid {
-    background-image: url("/images/desktop/image-grid.jpg");
+    background-image: url("../images/desktop/image-grid.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-above-vr {
-    background-image: url("/images/desktop/image-from-above.jpg");
+    background-image: url("../images/desktop/image-from-above.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-borealis {
-    background-image: url("/images/desktop/image-pocket-borealis.jpg");
+    background-image: url("../images/desktop/image-pocket-borealis.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-curiosity {
-    background-image: url("/images/desktop/image-curiosity.jpg");
+    background-image: url("../images/desktop/image-curiosity.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
   }
   .img-creations-fisheye {
-    background-image: url("/images/desktop/image-fisheye.jpg");
+    background-image: url("../images/desktop/image-fisheye.jpg");
     background-repeat: no-repeat;
     width: 256px;
     height: 450px;
